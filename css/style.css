@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img, embed, object, video {
+  max-width: 100%;
+}
+
+.container {
+ width: 100%;
+}
+
+.section{
+	width: 100%;
+	display: -webkit-flex;
+  	display: flex;
+  	flex-wrap: -webkit-wrap;
+  	flex-wrap: wrap;
+}
+.header{
+	height: auto;
+}
+.logo , .name{
+	width: 100%;
+	padding: 0.5em 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.logo img{
+	width: 30%;
+	height: auto;
+/* 	display: block;
+	margin: 0 auto; */
+}
+.name{
+	flex-direction: column;
+}
