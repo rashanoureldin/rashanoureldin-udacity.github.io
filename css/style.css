@@ -15,8 +15,11 @@ img, embed, object, video {
 .section{
 	width: 100%;
 	display: -webkit-flex;
-  	display: flex;
-  	flex-wrap: wrap;
+  	display:-webkit-box;
+	display:-ms-flexbox;
+	display:flex;
+	-ms-flex-wrap:wrap;
+    flex-wrap:wrap;
 }
 .header{
 	height: auto;
@@ -24,9 +27,15 @@ img, embed, object, video {
 .logo , .name{
 	width: 100%;
 	padding: 0.5em 0;
-	display: flex;
-	justify-content: center;
-	align-items: center;
+	display:-webkit-box;
+	display:-ms-flexbox;
+	display:flex;
+	-webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+	-webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
 }
 .logo img{
 	width: 30%;
@@ -35,5 +44,8 @@ img, embed, object, video {
 	margin: 0 auto; */
 }
 .name{
-	flex-direction: column;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
 }
