@@ -16,7 +16,6 @@ img, embed, object, video {
 	width: 100%;
 	display: -webkit-flex;
   	display: flex;
-  	flex-wrap: -webkit-wrap;
   	flex-wrap: wrap;
 }
 .header{
