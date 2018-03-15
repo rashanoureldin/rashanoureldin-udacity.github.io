@@ -59,6 +59,9 @@ img, embed, object, video {
 	width: 100%;
 	display: block;
 }
+.main-content{
+	flex-direction: column;
+}
 .heading{
 	width: 100%;
 	display:-webkit-box;
