@@ -92,9 +92,12 @@ img, embed, object, video {
 @media screen and (min-width: 550px) {
 	.logo{
 		width: 40%;
+	    justify-content: flex-start;
+	    padding-left: 1em;
 	}
 	.name{
 		width: 60%;
+	    padding-right: 1em;
 	}
 	
 }
