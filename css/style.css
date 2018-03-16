@@ -56,8 +56,9 @@ img, embed, object, video {
 	padding: 1em 0;
 }
 .photo img{
-	width: 100%;
-	display: block;
+	width: 100vw;
+   display: block;
+   margin: auto;
 }
 .main-content{
 	flex-direction: column;
