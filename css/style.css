@@ -98,6 +98,7 @@ img, embed, object, video {
 	.name{
 		width: 60%;
 	    padding-right: 1em;
+	    align-items: flex-end;
 	}
 	
 }
