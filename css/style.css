@@ -101,9 +101,10 @@ img, embed, object, video {
 @media screen and (min-width: 800px) {
 	.main-content{
 		flex-direction: row;
+		justify-content: space-around;
 	}
 	.featured{
-		width: 33.3%;
+		width: 30%;
 	}
 
 }
